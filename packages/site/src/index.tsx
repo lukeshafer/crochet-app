@@ -2,11 +2,13 @@
 import { render } from "solid-js/web"
 
 import "./index.css"
-import Root from "./root"
+//import Home from "./routes/Home"
+//import Create from "./routes/Create"
+import Stitch from "./routes/Stitch"
 
 const root = document.getElementById("root")
 if (!root) {
 	throw new Error("App root not found")
 }
 
-render(() => <Root />, root)
+render(() => <Stitch />, root)

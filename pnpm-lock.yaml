@@ -106,6 +106,9 @@ importers:
 
   packages/site:
     dependencies:
+      '@solidjs/router':
+        specifier: ^0.13.0
+        version: 0.13.0(solid-js@1.8.15)
       nanoid:
         specifier: ^5.0.6
         version: 5.0.6
@@ -3409,6 +3412,14 @@ packages:
       '@smithy/abort-controller': 2.1.4
       '@smithy/types': 2.11.0
       tslib: 2.6.2
+
+  /@solidjs/router@0.13.0(solid-js@1.8.15):
+    resolution: {integrity: sha512-YHLbFv9J53+iG4yVrh0vVdYiyXPTk892UyZ1jiMPsUXn2dYkX4552N+8SjvlKWWsmNmYxaoefM6jZn1YtVIUUg==}
+    peerDependencies:
+      solid-js: ^1.8.6
+    dependencies:
+      solid-js: 1.8.15
+    dev: false
 
   /@trpc/server@9.16.0:
     resolution: {integrity: sha512-IENsJs41ZR4oeFUJhsNNTSgEOtuRN0m9u7ec4u3eG/qOc7bIoo1nDoYtx4bl6OJJSQYEytG9tlcVz9G8OAaHbg==}

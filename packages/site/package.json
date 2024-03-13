@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@solidjs/router": "^0.13.0",
     "nanoid": "^5.0.6",
     "replicache": "^14.2.2",
     "solid-js": "^1.8.15"
